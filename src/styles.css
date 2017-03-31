@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+
+
+body {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+
+
+
+body.container .app-header {
+    width: 100%;
+}
+
+.container {
+    max-width: 100% !important;
+}
+
+.box-color {
+    background-color: #354759 !important;
+    color: rgba(255, 255, 255, 0.87) !important;
+}
+
+
+.navbar {
+    width: 100% !important;
+}
+
+.app-footer {
+    width: 100% !important;
+}
+
+.nav-active-border .nav-link:hover:before, .nav-active-border .nav-link:focus:before, .nav-active-border .nav-link.active:before {
+    border-bottom-color: #0CC2AE !important;
+}
+
